@@ -1,0 +1,17 @@
+{
+  "author": {
+    "name": "MindFusion LLC",
+    "email": "info@mindfusion.eu",
+    "url": "https://mindfusion.dev"
+  },
+  "name": "diagram-starter-electron",
+  "version": "1.0.0",
+  "description": "A template project for an Electron application with MindFusion.Diagramming.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^38.1.2"
+  }
+}
