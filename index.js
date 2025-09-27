@@ -39,6 +39,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	diagram.factory.createDiagramLink(node1, node2);
 
+	// automatically route links drawn by user
+	diagram.routeLinks = true;
+
 	// the Palette component lets users create shapes using drag-and-drop;
 	// users can also draw on the canvas using mouse or other pointing devices, as
 	// specified via DiagramView.behavior property;
