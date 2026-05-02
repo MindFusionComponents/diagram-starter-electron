@@ -1,3 +1,26 @@
+.mfc-accordion.business 
+{
+    color: #5a79a5;
+    background-color: #fff;
+}
+.mfc-accordion.business .mfc-accordionitem-header
+{
+    padding: 10px;
+}
+.mfc-accordion.business .mfc-accordionitem-header > a
+{
+    padding: 5px;
+}
+.mfc-accordion.business .mfc-listview-item.mfc-active .mfc-accordionitem-header > a
+{
+    border:1px solid #5a79a5;
+    margin: -1px;
+}
+.mfc-accordion.business .mfc-listview-item.mfc-selected .mfc-accordionitem-header
+{
+    background-color: #5a79a5;
+    color: #fff;
+} 
 .mfc-calendar.business
 {
     border: solid 1px #5a79a5;
@@ -111,7 +134,7 @@
 }
 
 .mfc-menu-content.business .mfc-menuitem .mfc-menuitem-image {
-    background-image: url("icons/black/small.png");
+    background-image: url("icons/b_small.png");
     background-position: -80px 0;
 }
 
@@ -161,38 +184,38 @@
 }
 .mfc-tabcontrol.business .mfc-tabbutton-close
 {
-    background-image: url("icons/white/small.png");
+    background-image: url("icons/w_small.png");
     background-position: -48px 0;
 }.mfc-tabstrip.business ul  {
     background-color: #5a79a5;
 }
 
 .mfc-tabstrip.business .mfc-navbutton[data-mfc="mfc-add"] img {
-    content: url("icons/white/add.png");
+    content: url("icons/w_add.png");
 }
 
 .mfc-tabstrip.business .mfc-navbutton[data-mfc="mfc-first"] img {
-    content: url("icons/white/first.png");
+    content: url("icons/w_first.png");
 }
 
 .mfc-tabstrip.business .mfc-navbutton[data-mfc="mfc-prev"] img {
-    content: url("icons/white/prev.png");
+    content: url("icons/w_prev.png");
 }
 
 .mfc-tabstrip.business .mfc-navbutton[data-mfc="mfc-next"] img {
-    content: url("icons/white/next.png");
+    content: url("icons/w_next.png");
 }
 
 .mfc-tabstrip.business .mfc-navbutton[data-mfc="mfc-last"] img {
-    content: url("icons/white/last.png");
+    content: url("icons/w_last.png");
 }
 
 .mfc-tabstrip.business .mfc-tabbutton-close {
-    background-image: url("icons/white/remove.png");
+    background-image: url("icons/w_remove.png");
 }
 .mfc-toolstrip.mfc-toolstrip-scrollable.business .mfc-toolstrip-cue-prev,
 .mfc-toolstrip.mfc-toolstrip-scrollable.business .mfc-toolstrip-cue-next {
-    background-image: url("icons/white/small.png");
+    background-image: url("icons/w_small.png");
 }
 
 .mfc-toolstrip.business {
@@ -332,23 +355,23 @@
 .mfc-window.business .mfc-toolstrip.mfc-toolstrip-scrollable .mfc-toolstrip-cue-prev,
 .mfc-window.business .mfc-toolstrip.mfc-toolstrip-scrollable .mfc-toolstrip-cue-next
 {
-    background-image: url("icons/white/small.png");
+    background-image: url("icons/w_small.png");
 }
 .mfc-windowhost.business .mfc-windowhost-toolstrip .mfc-toolstrip-item.mfc-toolbutton-show-all a
 {
-    background-image: url("icons/white/show-all.png");
+    background-image: url("icons/w_show-all.png");
 } 
 .mfc-windowhost.business .mfc-windowhost-toolstrip .mfc-toolstrip-item.mfc-toolbutton-restore-all a
 {
-    background-image: url("icons/white/restore-all.png");
+    background-image: url("icons/w_restore-all.png");
 } 
 .mfc-windowhost.business .mfc-windowhost-toolstrip .mfc-toolstrip-item.mfc-toolbutton-minimize-all a
 {
-    background-image: url("icons/white/minimize-all.png");
+    background-image: url("icons/w_minimize-all.png");
 } 
 .mfc-windowhost.business .mfc-windowhost-toolstrip .mfc-toolstrip-item.mfc-toolbutton-close-all a
 {
-    background-image: url("icons/white/close-all.png");
+    background-image: url("icons/w_close-all.png");
 } 
 .mfc-windowhost.business .mfc-windowhost-toolstrip .mfc-toolstrip-item.mfc-active
 {

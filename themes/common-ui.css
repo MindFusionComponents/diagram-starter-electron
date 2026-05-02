@@ -1,3 +1,78 @@
+.mfc-container-horizontal
+{
+    position: relative;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+.mfc-container-vertical
+{
+    position: relative;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+.mfc-hidden
+{
+    display: none !important;
+}
+.mfc-scrollable
+{
+    overflow:auto;
+}
+.mfc-inactive
+{
+    opacity: 0.5;
+}
+.mfc-transparent-text
+{
+    color: transparent !important;
+}
+.mfc-invalid
+{
+    color: red;
+}
+.mfc-window.mfc-dialog
+{
+    z-index: 1000;
+    text-align: center;
+}
+.mfc-dialog .mfc-dialog-message
+{
+    padding: 10px;
+    white-space: nowrap;
+}
+.mfc-dialog .mfc-dialog-message:nth-child(even)
+{
+    padding-top:0;
+}
+.mfc-dialog .mfc-dialog-button {
+    display: inline-block;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+}
+.mfc-attr
+{
+    color: red;
+    background-color: #fff;
+    display: block;
+    position: fixed;
+    top:10px;
+    right:10px;
+}
+/*.mfc-flex-wrap
+{
+    flex-wrap:wrap;
+}
+.mfc-flex-wrap > div
+{
+    flex-grow: 0 !important;
+}*/
 .mfc-tooltip{
     position: absolute !important;
     color: #000000;
@@ -244,81 +319,6 @@
     width: 20px;
     height: 20px;
 }
-.mfc-container-horizontal
-{
-    position: relative;
-    height:100%;
-    display: flex;
-    flex-direction: row;
-    flex: 1 1 auto;
-}
-.mfc-container-vertical
-{
-    position: relative;
-    height:100%;
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto;
-}
-.mfc-hidden
-{
-    display: none !important;
-}
-.mfc-scrollable
-{
-    overflow:auto;
-}
-.mfc-inactive
-{
-    opacity: 0.5;
-}
-.mfc-transparent-text
-{
-    color: transparent !important;
-}
-.mfc-invalid
-{
-    color: red;
-}
-.mfc-window.mfc-dialog
-{
-    z-index: 1000;
-    text-align: center;
-}
-.mfc-dialog .mfc-dialog-message
-{
-    padding: 10px;
-    white-space: nowrap;
-}
-.mfc-dialog .mfc-dialog-message:nth-child(even)
-{
-    padding-top:0;
-}
-.mfc-dialog .mfc-dialog-button {
-    display: inline-block;
-    padding: 2px;
-    margin: 2px;
-    text-align: center;
-    width: 80px;
-    cursor: pointer;
-}
-.mfc-attr
-{
-    color: red;
-    background-color: #fff;
-    display: block;
-    position: fixed;
-    top:10px;
-    right:10px;
-}
-/*.mfc-flex-wrap
-{
-    flex-wrap:wrap;
-}
-.mfc-flex-wrap > div
-{
-    flex-grow: 0 !important;
-}*/
 .mfc-menu
 {
     display:inline-block;
@@ -350,7 +350,7 @@
 .mfc-menu-content .mfc-menuitem .mfc-menuitem-image {
      width: 16px;
      height: 16px;
-     background-image: url("icons/black/small.png");
+     background-image: url("icons/b_small.png");
      background-position: -80px 0;
  }
  .mfc-menu-content.mfc-menuitem-children
@@ -602,7 +602,7 @@
 }
 
 .mfc-toolstrip.mfc-window-toolstrip .mfc-toolbutton-default a {
-    background-image: url("icons/black/small.png");
+    background-image: url("icons/b_small.png");
     padding: 2px;
     height: 14px;
     width: 14px;
@@ -610,19 +610,19 @@
 }
 
 .mfc-toolstrip.mfc-windowhost-toolstrip .mfc-toolstrip-item.mfc-toolbutton-show-all a {
-    background: url("icons/black/show-all.png") no-repeat center center;
+    background: url("icons/b_show-all.png") no-repeat center center;
 }
 
 .mfc-toolstrip.mfc-windowhost-toolstrip .mfc-toolstrip-item.mfc-toolbutton-restore-all a {
-    background: url("icons/black/restore-all.png") no-repeat center center;
+    background: url("icons/b_restore-all.png") no-repeat center center;
 }
 
 .mfc-toolstrip.mfc-windowhost-toolstrip .mfc-toolstrip-item.mfc-toolbutton-minimize-all a {
-    background: url("icons/black/minimize-all.png") no-repeat center center;
+    background: url("icons/b_minimize-all.png") no-repeat center center;
 }
 
 .mfc-toolstrip.mfc-windowhost-toolstrip .mfc-toolstrip-item.mfc-toolbutton-close-all a {
-    background: url("icons/black/close-all.png") no-repeat center center;
+    background: url("icons/b_close-all.png") no-repeat center center;
 }
 
 .mfc-toolstrip.mfc-window-toolstrip .mfc-toolstrip-item.mfc-toolbutton-pin a {
@@ -679,7 +679,7 @@
     width: 16px;
     height: 16px;
     display: inline-block;
-    background-image: url("icons/black/small.png");
+    background-image: url("icons/b_small.png");
 }
 
 .mfc-toolstrip.mfc-toolstrip-horizontal.mfc-toolstrip-scrollable .mfc-toolstrip-cue-prev,
@@ -908,30 +908,30 @@
 }
 
 .mfc-tabstrip .mfc-navbutton[data-mfc="mfc-add"] img {
-    content: url("icons/black/add.png");
+    content: url("icons/b_add.png");
 }
 
 .mfc-tabstrip .mfc-navbutton[data-mfc="mfc-first"] img {
-    content: url("icons/black/first.png");
+    content: url("icons/b_first.png");
 }
 
 .mfc-tabstrip .mfc-navbutton[data-mfc="mfc-prev"] img {
-    content: url("icons/black/prev.png");
+    content: url("icons/b_prev.png");
 }
 
 .mfc-tabstrip .mfc-navbutton[data-mfc="mfc-next"] img {
-    content: url("icons/black/next.png");
+    content: url("icons/b_next.png");
 }
 
 .mfc-tabstrip .mfc-navbutton[data-mfc="mfc-last"] img {
-    content: url("icons/black/last.png");
+    content: url("icons/b_last.png");
 }
 
 .mfc-tabstrip .mfc-tabbutton-close {
     width: 16px;
     min-width: 16px;
     height: 16px;
-    background-image: url("icons/black/remove.png");
+    background-image: url("icons/b_remove.png");
     cursor: pointer;
     margin-left: 4px;
 }
@@ -1020,7 +1020,7 @@
     width: 16px;
     min-width: 16px;
     height: 16px;
-    background-image: url("icons/black/small.png");
+    background-image: url("icons/b_small.png");
     background-position: -48px 0;
     cursor: pointer;
 }
@@ -1067,7 +1067,7 @@
     height: 16px;
     display: inline-block;
     margin-right: 4px;
-    background-image: url("icons/black/small.png");
+    background-image: url("icons/b_small.png");
     background-position: -80px 0;
     cursor: pointer;
 }
@@ -1432,4 +1432,95 @@
 
 .mfc-checklistbox .mfc-listview-item input.mfc-hidden+a {
     margin-left: 4px;
+}
+.mfc-accordion {
+    display: inline-block;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #fff;
+    outline: none;
+    box-sizing: border-box;
+    /*scrollbar-gutter: stable;*/
+}
+
+.mfc-accordion>ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.mfc-accordion.mfc-accordion-horizontal {
+    /* width:100%;*/
+    overflow-x: auto;
+}
+
+.mfc-accordion.mfc-accordion-vertical {
+    /* height:100%;   */
+    overflow-y: auto;
+}
+
+.mfc-accordion.mfc-accordion-horizontal>ul {
+    height: 100%;
+    overflow-x: auto;
+}
+
+.mfc-accordion.mfc-accordion-vertical>ul {
+    flex-direction: column;
+}
+
+.mfc-accordion .mfc-listview-item:not(.mfc-expanded) .mfc-templateditem {
+    display: none;
+}
+
+.mfc-accordion .mfc-listview-item.mfc-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.mfc-accordion .mfc-listview-item.mfc-disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+.mfc-accordion .mfc-listview-item .mfc-accordionitem-header {
+    display: flex;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    user-select: none;
+    -moz-user-select: -moz-none;
+    display: flex;
+    align-items: center;
+}
+
+.mfc-accordion .mfc-listview-item .mfc-accordionitem-header>a {
+    text-decoration: none;
+    flex: 1 1 auto;
+}
+
+.mfc-accordion .mfc-listview-item .mfc-accordionitem-header img {
+    width: auto;
+    height: 100%;
+    margin: auto 0;
+    pointer-events: none;
+    flex: 0 0 auto;
+}
+
+.mfc-accordion .mfc-listview-item .mfc-treenode-image {
+    position: absolute;
+    right: 4px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 4px;
+    background-image: url("icons/b_small.png");
+    background-position: -96px 0;
+    cursor: pointer;
+}
+
+.mfc-accordion .mfc-listview-item.mfc-expanded .mfc-treenode-image {
+    transform: rotate(180deg) translateY(-8px);
 }

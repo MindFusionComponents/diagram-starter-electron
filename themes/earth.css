@@ -1,4 +1,26 @@
-.mfc-calendar.earth
+.mfc-accordion.earth 
+{
+    color:  #46697d;
+    background-color:  #c5b28a;
+}
+.mfc-accordion.earth .mfc-accordionitem-header
+{
+    padding: 10px;
+}
+.mfc-accordion.earth .mfc-accordionitem-header > a
+{
+    padding-left: 5px;
+}
+.mfc-accordion.earth .mfc-listview-item.mfc-active .mfc-accordionitem-header
+{
+    color:  #c5b28a;
+    background-color:  #46697d;
+}
+.mfc-accordion.earth .mfc-listview-item .mfc-listview-item-image 
+{
+    background-image: url("icons/b_small.png");
+     background-position: -80px 0;
+ }.mfc-calendar.earth
 {
     border: solid 1px #5a79a5;
     border-radius: 3px;
@@ -193,7 +215,7 @@
 }
 .mfc-tabcontrol.earth .mfc-tabbutton-close
 {
-    background-image: url("icons/black/small.png");
+    background-image: url("icons/b_small.png");
     background-position: -48px 0;
 }.mfc-tabstrip.earth ul  {
     background-color:  #f2ebcf;
@@ -201,7 +223,7 @@
 .mfc-toolstrip.mfc-toolstrip-scrollable.earth .mfc-toolstrip-cue-prev,
 .mfc-toolstrip.mfc-toolstrip-scrollable.earth .mfc-toolstrip-cue-next
 {
-    background-image: url("icons/black/small.png");
+    background-image: url("icons/b_small.png");
 }
 .mfc-toolstrip.earth
 {
@@ -278,7 +300,7 @@
 }
 .mfc-treeview.earth .mfc-treenode .mfc-treenode-image 
 {
-    background-image: url("icons/black/small.png");
+    background-image: url("icons/b_small.png");
      background-position: -80px 0;
  }.mfc-windowhost.earth
 {
@@ -328,23 +350,23 @@
 .mfc-window.earth .mfc-toolstrip.mfc-toolstrip-scrollable .mfc-toolstrip-cue-prev,
 .mfc-window.earth .mfc-toolstrip.mfc-toolstrip-scrollable .mfc-toolstrip-cue-next
 {
-    background-image: url("icons/black/small.png");
+    background-image: url("icons/b_small.png");
 }
 .mfc-windowhost.earth .mfc-windowhost-toolstrip .mfc-toolstrip-item.mfc-toolbutton-show-all a
 {
-    background-image: url("icons/black/show-all.png");
+    background-image: url("icons/b_show-all.png");
 } 
 .mfc-windowhost.earth .mfc-windowhost-toolstrip .mfc-toolstrip-item.mfc-toolbutton-restore-all a
 {
-    background-image: url("icons/black/restore-all.png");
+    background-image: url("icons/b_restore-all.png");
 } 
 .mfc-windowhost.earth .mfc-windowhost-toolstrip .mfc-toolstrip-item.mfc-toolbutton-minimize-all a
 {
-    background-image: url("icons/black/minimize-all.png");
+    background-image: url("icons/b_minimize-all.png");
 } 
 .mfc-windowhost.earth .mfc-windowhost-toolstrip .mfc-toolstrip-item.mfc-toolbutton-close-all a
 {
-    background-image: url("icons/black/close-all.png");
+    background-image: url("icons/b_close-all.png");
 } 
 .mfc-windowhost.earth .mfc-toolstrip-horizontal.mfc-toolstrip-collapsible::after {
     border-color: #f2ebcf transparent transparent transparent;
